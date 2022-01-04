@@ -1,0 +1,925 @@
+*{
+    scroll-behavior: smooth;
+    scrollbar-color: #24ae8f black;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    background-color: #111111;
+}
+
+
+::-webkit-scrollbar {
+width: 15px;
+height: 15px;
+}
+::-webkit-scrollbar-track-piece  {
+background-color: #000000;
+}
+::-webkit-scrollbar-thumb:vertical {
+height: 30px;
+background-color: #24ae8f;
+}
+
+
+
+
+.fixedNav{
+    width: 100%;
+    z-index: 200;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.activated {
+    background: #24ae8f;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-item:hover{
+    background: #24ae8f;
+    margin-left: 5px;
+}
+
+.dropdown-menu.show {
+    background: #0b0b0b;
+    border-bottom: 2px solid #6a6a6a;
+    border-left: 2px solid #6a6a6a;
+    border-right: 2px solid #6a6a6a;
+    margin-top: 20px;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover, .dropdown-item a{
+    background-color: #24ae8f;
+    color: white;
+}
+
+.bg-black{
+    /* background-color: black; */
+    background-color: #000a1e;
+}
+
+
+#first_sec {
+    background-image: url("../webimages/section1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#first_sec h2{
+    font-size: 70px;
+    line-height: 75px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.overlayBg{
+    background-color: #0000009c;
+    height: 100%;
+}
+
+
+.yellow{color: #fd961a;}
+.yellowBg{background-color: #fd961a;}
+.white{color: #fff;}
+.dim_color{color: #999!important;}
+.red{color: #24ae8f;}
+.redBg{background-color: #24ae8f;}
+table, p{font-family: Arial, Helvetica, sans-serif;}
+
+.center_text{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* first section done  */
+
+
+/* second section start  */
+
+#sec2 {
+    color: #f7f7f7c9;
+    position: relative;
+    z-index: 10;
+    margin-top: -75px;
+    padding: 20px;
+}
+
+.coinimg{
+    width: 100%;
+    height: 100%;
+}
+
+.line_row {
+    border-right: 5px solid #555;
+}
+
+.line_row:nth-child(3){
+    border: none;
+}
+
+
+#sec2 p{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+/* about us thgird section  */
+#aboutUs{
+    padding: 40px;
+}
+
+.about_txt{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.about_text2{
+    text-align: center;
+    color: #999;
+    font-family: arial;
+}
+
+#readMore {
+    background-color: #fd961a;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: all 0.2s;
+}
+
+#readMore:hover{
+    background-color: #24ae8f;
+    outline: none;
+}
+
+.about_img{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+
+
+
+/* fourth section the best coins today part  */
+#best_coins{
+    padding: 40px;
+}
+
+.coin_table_holder{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#best_coins h3{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.addvertise{
+    width: 100%;
+    height: 80px;
+}
+
+/* #best_coins a{
+    float: right;
+    margin-top: 10px;
+} */
+
+.rightLink{
+    float: right;
+    margin-top: 10px;
+}
+
+thead {
+    /* background: black; */
+    background: #000a1e;
+}
+
+tr:hover{
+    /* background-color: black; */
+    background-color: #000a1e;
+}
+
+.star{
+    opacity: 0;
+}
+tr:hover .star{
+    opacity: 1;
+}
+
+.tableImg {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.table_sec_img{
+    width: 20px;
+    height: 20px;
+}
+
+
+#best_coins td{
+    max-width: 120px;
+}
+
+#best_coins td:nth-child(2) {
+    width: 100px;
+}
+
+#best_coins td:nth-child(3) {
+    max-width: 100px;
+    font-weight: bold;
+}
+
+#tableScroller{
+    width: 100%;
+    overflow: auto;
+}
+
+#promoteds{
+    margin-top: 15px;
+}
+
+/* particulars tables  */
+#particulars{
+    padding-top: 90px;
+}
+
+.votehref{
+    margin-top: 0px!important;
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.down_arrow {
+    font-weight: bold;
+    font-size: 120px;
+    margin-top: -30px;
+}
+
+
+
+
+.pagination a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: left!important;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #fd961a;
+    color: white;
+    border: 1px solid #fd961a;
+}
+
+
+#paginationsAll .page-link {
+    background: transparent;
+    padding: 10px 20px !important;
+    font-size: 20px;
+}
+
+#paginationsAll .page-item.active {
+    margin: auto 10px;
+}
+
+
+#paginationsAll .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #fd961a;
+    border-color: #fd961a;
+}
+
+#paginationsAll .page-link:hover {background-color: #fd961a;}
+
+
+
+
+ /* submit section  */
+
+#section_submits{
+    height: 400px;
+    background-image: url("../webimages/section_submit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.common_container{
+    margin: 10px 40px;
+    background-color: black;
+    background-color: #040e22;
+    border-radius: 7px;
+    padding: 35px 10px;
+    min-height: 230px;
+}
+
+#centerHolder{
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.overlayBg2{
+    /* background-color: #1e1e1ead; */
+    background-color: #0000007d;
+    height: 100%;
+}
+
+
+
+
+/* helps section  */
+#helps{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+hr {
+    width: 160px;
+    background-color: #fd961a;
+    color: #fd961a;
+    border: 2px solid #fd961a;
+    float: left;
+    margin-top: 0px;
+}
+
+#questions {
+    margin-top: 20px;
+    color: #c1c1c1;
+}
+
+
+
+
+/* rergisternow section  */
+
+#rergisternow{
+    background-image: url("../webimages/bitcoin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+
+.overlayBg3{
+    background-color: #000000b5;
+    height: 100%;
+}
+
+.cstmpadding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#arrow_holder{
+    height: 100px;
+    background-color: tomato;
+}
+
+.arrow {
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    margin: 0px auto;
+    transform: rotate(45deg);
+}
+
+
+
+
+/* footerHolder div  */
+#footerHolder{
+    padding: 50px 25px;
+    padding-bottom: 5px;
+    /* background: #262626; */
+    background: #000a1e;
+}
+
+.hreflink{
+    text-decoration: none;
+    color: #f7f7f7c9;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    line-height: 2;
+}
+
+.hreflink:hover{
+    color: #24ae8f;
+}
+
+.footerlogo{
+    /* width: 250px; */
+    width: 180px;
+    height: auto;
+}
+
+.sideBars{
+    border-left: 3px solid #fd961a;
+    border-right: 3px solid #fd961a;
+}
+
+.footer_links{
+    padding: 20px 15px;
+}
+
+.linerow_last{
+    margin-top: 20px;
+    width: 100%;
+    color: #999;
+    background-color: #999;
+    border: 0.5px solid #999;
+}
+
+
+
+.social {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #555;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 0.2s;
+    color: white;
+    text-decoration: none;
+}
+
+
+.social:hover{
+    background-color: #fd961a;
+    border: none;
+    color: white;
+}
+
+.social a{
+    font-style: normal;
+    font-family: unset;
+}
+
+
+
+
+
+
+/* top coins  */
+.coindiv{
+    background-color: #0d1010;
+    padding: 15px;
+    margin: 10px 0px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #5b5959;
+    word-wrap: break-word;
+}
+
+.coin_name{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.coin{
+    font-size: 12px;
+}
+
+
+.top_coinimg {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.number {
+    padding: 3px 15px;
+    padding-bottom: 5px;
+    background-color: #343a40;
+    border-radius: 5px;
+    top: -10px;
+    position: relative;
+}
+
+
+#top10Influencer .number{
+     top: -5px;
+}
+
+#top10Influencer{
+    margin-top: 90px;
+}
+
+
+
+
+#sendTop {
+    bottom: 30px;
+    right: 30px;
+    display: block;
+    position: fixed;
+    width: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 32px;
+    /* background: #ff4747db; */
+    background: #24ae8f8c;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.opacityFull{
+    opacity: 1!important;
+}
+
+
+
+/* ---------------- advertise page ----------------  */
+.righthref{
+    float: right;
+    margin-bottom: 7px;
+}
+
+.coin_card_div{
+    padding: 35px 15px;
+    background: rgb(66 66 66 / 41%);
+    color: white;
+    margin-top: 30px;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 22px 0px #5bff9d; */
+}
+
+.coin_card_img {
+    width: 100px;
+    height: 100px;
+}
+
+.coin_sign {
+    background: rgb(30, 28, 28);
+    color: white;
+    font-weight: bold;
+    padding: 7px 20px;
+    margin: 5px;
+}
+
+.contract_addr_txt {
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+#copyContract{
+    margin-left: 5px;
+    color: #9b9696;
+}
+
+.coincap {
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px;
+}
+
+.part_coins_name a{
+    text-decoration: none;
+}
+
+.statusHolders {
+    margin-top: 10px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.statusHolders button{
+    min-width: 80px;
+}
+
+
+.descriptions{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.lightbtn {
+    width: 22px;
+}
+
+.coinbtn{
+    margin: 5px 10px;
+    min-width: 100px;
+}
+
+
+#captchaSolve{
+    height: 95%;
+}
+
+
+ /* submit page  */
+
+#submitHolder {
+    margin: 50px auto;
+    padding: 40px 35px;
+    background: #1c1c1c;
+    color: white;
+    border-radius: 15px;
+    max-width: 750px;
+    border: 1px solid #626060;
+}
+
+#coinLogo {
+    width: 200px;
+    height: 200px;
+    background: #1c8adb;
+}
+
+#submitHolder label{
+    font-weight: 600;
+}
+
+
+
+#submitHolder .form-control{
+    background-color: transparent;
+    color: #e5e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submitHolder option {
+    color: black;
+    padding: 5px;
+}
+
+small{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+ /* about us part  */
+.bgImg{
+    background-image: url("../webimages/aboutusBg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+
+#aboutComp {
+    margin: 50px auto;
+    padding: 40px 35px;
+    background: #021f2d;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid #626060;
+}
+
+
+.privacyPolicybgImg{
+    background-image: url("../webimages/privacyBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    height: 350px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+
+
+/* contact us page / advertise page  */
+
+
+.contactbgImg{
+     background-image: url("../webimages/contactbg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    height: 350px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+.contactSubSection{
+    max-width: 750px;
+    margin: 65px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+/* // terms and conditions page  */
+.termsBgImg{
+    background-image: url("../webimages/terms.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    height: 350px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+
+.normalHref {
+    float: unset !important;
+}
+
+.cmn_chain_btn{
+    color: white;
+}
+.btn-light{
+    color: black;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+#paginationsAll a{
+    float: unset;
+    margin-top: unset;
+}
+
+
+/* .w-5{
+    display: none;
+} */
+
+
+#mailImgHolder{
+    max-width: 500px;
+    height: auto;
+}
+
+#mailImgHolder img{
+    width: 100%;
+    height: 100%;
+}
+
+#rightImg {
+    width: 50px !important;
+}
+
+
+#updateInp{
+    background: transparent;
+    color: white;
+}
+
+
+
+
+
+
+
+#resultsUpCoin {
+    background-color: #021f2d;
+    max-height: 500px;
+    overflow-y: auto;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.resultCoinImg {
+    width: 60px;
+    height: 60px;
+}
+
+.resultLine{
+    background-color: #151515e8;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.resultLine:nth-last-child(1){
+    margin-bottom: 0px;
+}
+
+
+.descriptions {
+    display: block;
+    font-size: 100%;
+    color: #fff;
+    font-family: arial;
+    white-space: pre-wrap;
+}
+
+
+#results {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.result_line {
+    display: inline-flex;
+    padding: 10px;
+    background: black;
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.resultImg{
+    width: 40px;
+    height: 40px;
+}
+
+
+.lastAddSection {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background: white;
+    z-index: 2000;
+}
+
+.footerAdvertise {
+    width: 100%;
+    height: 100%;
+}
+
+#crossBtn {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+}

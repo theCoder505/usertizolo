@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1000px) {
+
+    .line_row{
+        border: none;
+    }
+
+    #section_submits{
+        height: 600px;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #first_sec {
+        height: 80vh;
+    }
+
+    #first_sec h2 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .line_row{
+        margin-top: 25px;
+    }
+    
+    #section_submits{
+        height: 700px;
+    }
+
+    .sideBars{
+        border: none;
+        border-top: 3px solid #fd961a;
+        border-bottom: 3px solid #fd961a;
+    }
+
+    .nav-item:hover{
+        margin-left: 0px;
+    }
+
+    #aboutUsPart .center_text{
+        top: 30%;
+    }
+
+}
+
+
+
+
+
+
